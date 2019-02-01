@@ -1,0 +1,6 @@
+framework module Pods_PizzaRealmSpikeUITests {
+  umbrella header "Pods-PizzaRealmSpikeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

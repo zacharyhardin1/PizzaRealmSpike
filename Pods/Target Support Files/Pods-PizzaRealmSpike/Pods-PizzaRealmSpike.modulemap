@@ -1,0 +1,6 @@
+framework module Pods_PizzaRealmSpike {
+  umbrella header "Pods-PizzaRealmSpike-umbrella.h"
+
+  export *
+  module * { export * }
+}
