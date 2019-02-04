@@ -16,7 +16,7 @@
 		74598E072204971300B101A2 /* PizzaRealmSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74598E062204971300B101A2 /* PizzaRealmSpikeTests.swift */; };
 		74598E122204971300B101A2 /* PizzaRealmSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74598E112204971300B101A2 /* PizzaRealmSpikeUITests.swift */; };
 		74598E202204978200B101A2 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74598E1F2204978200B101A2 /* Pizza.swift */; };
-		74598E22220498A100B101A2 /* PizzaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74598E21220498A100B101A2 /* PizzaController.swift */; };
+		74598E22220498A100B101A2 /* PizzaReponsitory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74598E21220498A100B101A2 /* PizzaReponsitory.swift */; };
 		C66DAD73A901E46F7F1C907A /* Pods_PizzaRealmSpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813BDDBA4C678B33EA829E81 /* Pods_PizzaRealmSpikeTests.framework */; };
 		C728318F0A90351DB2D1ED2E /* Pods_PizzaRealmSpikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C8A55FBF5723F122CFF4F9 /* Pods_PizzaRealmSpikeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,7 +57,7 @@
 		74598E112204971300B101A2 /* PizzaRealmSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaRealmSpikeUITests.swift; sourceTree = "<group>"; };
 		74598E132204971300B101A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74598E1F2204978200B101A2 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
-		74598E21220498A100B101A2 /* PizzaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaController.swift; sourceTree = "<group>"; };
+		74598E21220498A100B101A2 /* PizzaReponsitory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaReponsitory.swift; sourceTree = "<group>"; };
 		813BDDBA4C678B33EA829E81 /* Pods_PizzaRealmSpikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaRealmSpikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC0EDFD85F47856B61B5BEF /* Pods_PizzaRealmSpike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaRealmSpike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FC971C6CF257B2BD97AD1A /* Pods-PizzaRealmSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaRealmSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaRealmSpike/Pods-PizzaRealmSpike.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			children = (
 				74598DF12204971200B101A2 /* AppDelegate.swift */,
 				74598E1F2204978200B101A2 /* Pizza.swift */,
-				74598E21220498A100B101A2 /* PizzaController.swift */,
+				74598E21220498A100B101A2 /* PizzaReponsitory.swift */,
 				74598DF32204971200B101A2 /* ViewController.swift */,
 				74598DF52204971200B101A2 /* Main.storyboard */,
 				74598DF82204971200B101A2 /* Assets.xcassets */,
@@ -401,7 +401,7 @@
 			files = (
 				74598DF42204971200B101A2 /* ViewController.swift in Sources */,
 				74598DF22204971200B101A2 /* AppDelegate.swift in Sources */,
-				74598E22220498A100B101A2 /* PizzaController.swift in Sources */,
+				74598E22220498A100B101A2 /* PizzaReponsitory.swift in Sources */,
 				74598E202204978200B101A2 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,6 @@
 import RealmSwift
 
-class PizzaDataSource {
+class PizzaRepository {
 
     let realm: Realm!
 
